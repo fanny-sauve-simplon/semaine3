@@ -1,23 +1,70 @@
-*{
-    font-family:arial;
+*{ font-family:arial;
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
 }
-body,nav, ul, li {
-    margin:0;
-    padding:0;
+html,body {
+    color:#222; 
 }
-nav{
-    color:white;
+a{
+    color:#222;
+}
+/*menu*/
+header{
+    overflow: auto;
     background-color: black;
-    list-style: none;
+    line-height: 1.7em;
+}
+.header nav h1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.header nav ul{
+    float: right;
 }
 .header nav ul li{
-    align-items: flex-end;
-    justify-content: space-between;
+    list-style: none;
 }
-img{
-    width:100%;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-
+.header nav ul li a{
+    color: white;
+    padding:20px;
+    display:block;
+}
+/*contenu café*/
+.cafe{
+    background: url('cafe.jpg') center center;
+    height:700px;
+    background-size: cover;
+    text-align: center;
+}
+.cafe-content{
+    color: white;
+    max-width: 600px;
+    margin:auto;
+}
+.cafe-content h1{
+    font-size: 50px;
+}
+.cafe-content p{
+    font-size:18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: #222;
+    color:white;
+}
+/*info pratique*/
+.nouveaute{
+    paddin
 }

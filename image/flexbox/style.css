@@ -1,0 +1,10 @@
+.boite{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    border: burlywood;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+}
